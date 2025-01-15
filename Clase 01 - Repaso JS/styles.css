@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    background-color: orange;
+}
+
+.main {
+    background-color: lightblue;
+}
+.footer {
+    background-color: orange;
+}
+
+#principal {
+    border: 2px solid red;
+}
