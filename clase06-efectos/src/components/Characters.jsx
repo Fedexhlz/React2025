@@ -1,6 +1,6 @@
 import {useEffect,useState} from "react"
 import Character from "./Character"
-import { BASE_URL } from "../constants/constants"
+//import { BASE_URL } from "../constants/constants";
 import {Row} from "react-bootstrap"
 import ClipLoader from "react-spinners/ClipLoader";
 
@@ -22,7 +22,7 @@ const Characters = () => {
 
         try {
 
-            let response = await fetch(BASE_URL) 
+            let response = await fetch("https://rickandmortyapi.com/api/character") 
             let respuesta = await response.json()
             console.log(respuesta.results);
             setPersonajes(respuesta.results)
