@@ -7,8 +7,8 @@ import { Pagination } from "react-bootstrap";
 import Paginate from "./Paginate";
 
 
-const Characters = () => {
-
+const Characters = ({value}) => {
+    console.log("esto es characters :"+value);
     //then()
     //async await
     const [personajes, setPersonajes] = useState([])
@@ -41,11 +41,12 @@ const Characters = () => {
     }
 
 
-    const handleClick = async () => {
+    const handleValue = async () => {
+        console.log("ejecuto handleValue");
         //https://rickandmortyapi.com/api/character/?name=rick
-        let response = await fetch(`${BASE_URL}/?name=${nombre}`)
+        let response = await fetch(`${BASE_URL}/?name=${value}`)
         let datos = await response.json()
-        //console.log(datos);
+        console.log(datos);
         setPersonajes(datos.results)
         setInfo(datos.info)
         setNombre("")
@@ -63,8 +64,10 @@ const Characters = () => {
 
 
     useEffect(() => {
-        getCharacters()
-    }, [])
+
+        value === "" ? getCharacters() : handleValue()
+        
+    }, [value])
 
     return (
         <div>
@@ -72,9 +75,7 @@ const Characters = () => {
             <h2>Aqui van mis personajes</h2>
             <br />
             <br />
-            <label htmlFor="">busca tu personaje</label>
-            <input type="text" onChange={(e) => setNombre(e.target.value)} value={nombre}/>
-            <button type="button" onClick={handleClick}>buscar</button>
+
             <br />
             <br />
             <Row>

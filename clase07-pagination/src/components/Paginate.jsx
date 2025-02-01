@@ -1,7 +1,7 @@
 import { Pagination } from "react-bootstrap"
 
 const Paginate = ({prev,next,handlePages}) => {
-console.log(prev,next);
+//console.log(prev,next);
 
     const handlePrev =() =>{
         //https://rickandmortyapi.com/api/character?page=2

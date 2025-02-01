@@ -2,7 +2,7 @@
 
 const Footer = ({value}) => {
 
-  console.log("esto es Footer "+ value);
+  // console.log("esto es Footer "+ value);
   return (
     <div>
         <br />
