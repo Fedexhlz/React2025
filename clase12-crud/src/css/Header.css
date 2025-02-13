@@ -1,0 +1,32 @@
+/* .h1 {
+    text-shadow: 2px 4px 4px #0e0e0e;
+} */
+.bg-info {
+    padding: 30px 20px; /* Espaciado alrededor del contenedor */
+    
+  }
+  
+  .bg-info .h1 {
+    font-size: 3rem; /* Aumenta el tamaño del texto */
+    font-weight: bold; /* Pone el texto en negrita */
+    text-align: center; /* Centra el texto */
+    color: #ffc107; /* Amarillo claro */
+/* Color blanco para el texto */
+    text-shadow: 2px 4px 4px black; /* Sombra suave para el texto */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+   
+    margin-top: 0; /* Elimina el margen superior */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    transition: color 0.3s ease; /* Transición suave al cambiar el color */
+  }
+  
+
+  
+  /* Para dispositivos más pequeños */
+  @media (max-width: 768px) {
+    .bg-info .h1 {
+      font-size: 2.5rem; /* Reduce el tamaño del texto en pantallas pequeñas */
+    }
+  }
+  

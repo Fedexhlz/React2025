@@ -1,0 +1,159 @@
+{
+  "contactos": [
+    {
+      "nombre": "Lionel",
+      "apellido": "Messi",
+      "telefono": 3814562356,
+      "direccion": "B los platanos mza H casa 6",
+      "id": "2",
+      "imagen": "https://cdn.conmebol.com/wp-content/uploads/2023/06/000_334P84K-scaled.jpg",
+      "goles": 5213
+    },
+    {
+      "nombre": "Erlind",
+      "apellido": "Haland",
+      "telefono": 3813456210,
+      "direccion": "Bnejamin matienzo 124",
+      "id": "4",
+      "imagen": "https://i.pinimg.com/736x/dc/87/e5/dc87e5da8adbf858a3dcbd7e08f8d773.jpg",
+      "goles": 842
+    },
+    {
+      "nombre": "rodrigo",
+      "apellido": "de paul",
+      "telefono": "3814251512",
+      "direccion": "san lorenzo 12345",
+      "id": "5",
+      "imagen": "https://es.coachesvoice.com/wp-content/uploads/2021/07/depaulmain-scaled.jpg",
+      "goles": 356
+    },
+    {
+      "nombre": "cristiano",
+      "apellido": "ronaldo",
+      "telefono": "3812787878",
+      "direccion": "la bombisha 2200",
+      "id": "6",
+      "imagen": "https://www.hola.com/horizon/43/e48159e847bc-cristiano-ronaldo.jpg",
+      "goles": 1520
+    },
+    {
+      "id": "21ab",
+      "nombre": "ronaldino",
+      "apellido": "gaucho",
+      "direccion": "gaucho",
+      "telefono": "3814222555",
+      "imagen": "https://media.tycsports.com/files/2022/03/21/405501/ronaldinho_w862.jpg",
+      "goles": "500"
+    },
+    {
+      "id": "4c91",
+      "nombre": "fideo",
+      "apellido": "di maria",
+      "direccion": "no se",
+      "telefono": "381222111",
+      "imagen": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQ6y9T3pNJx8GrttGv6HhrSzAIj2MDC8ixNZ6ZpNN9WTHXXUpUQjWySWAr3ZdmquT4dmVosmiShRP-Q57k"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "name": "raul",
+      "password": "12345",
+      "rol": "admin"
+    },
+    {
+      "id": "2",
+      "name": "marisa",
+      "password": "mari2025",
+      "rol": "user"
+    },
+    {
+      "id": "3",
+      "name": "carlos alberto",
+      "password": "carlin1234",
+      "rol": "user"
+    }
+  ],
+  "peliculas": [
+    {
+      "id": "1",
+      "nombre": "Respira (2024)",
+      "genero": "Ciencia ficción, Acción, Drama",
+      "anio": 2024,
+      "imagen": "https://pics.filmaffinity.com/Respira-611213507-large.jpg",
+      "descarga": "https://www.mediafire.com/file/rkntqb5tbh15eac/bvncjyfdrdyryjsetrestrthsr.rar/file"
+    },
+    {
+      "id": "2",
+      "nombre": "Moana 2 (2024)",
+      "genero": "Animacion, Acción, Aventura",
+      "anio": 2024,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZDUxNThhYTUtYjgxNy00MGQ4LTgzOTEtZjg1YTU5NTcwNThlXkEyXkFqcGc@._V1_.jpg",
+      "descarga": "https://www.mediafire.com/file/npkfhampsgzqlpo/wwfrsysetherthgwragawgawrhg.rar/file"
+    },
+    {
+      "id": "3",
+      "nombre": "Sonic 3 (2024)",
+      "genero": "Animacion, Ciencia ficción, Acción",
+      "anio": 2024,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYzMxOTYyY2YtNzNlMy00MGEwLTg0YjUtODAwNjgyNWFmZDIwXkEyXkFqcGc@._V1_.jpg",
+      "descarga": "https://www.mediafire.com/file/shc7ej5d3eioekr/thewartwreyrteyaetuytwrhysdfgbdhawerhyert.rar/file"
+    },
+    {
+      "id": "4",
+      "nombre": "The Killer’s Game (2024)",
+      "genero": "Accion , Comedia ,Crimen",
+      "anio": 2024,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BODg4MTBiOGQtN2I5Yi00MWY2LWI1ODktZTUzZjhlYmZjMjFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "descarga": "https://www.mediafire.com/file/7zct8zykpd3kzs4/vbdxghxyertyhgaehjuertujasetrhyaergh.rar/file"
+    },
+    {
+      "id": "5",
+      "nombre": "Gladiador II (2024)",
+      "genero": "Drama, Aventura, Acción",
+      "anio": 2024,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMDI0ZDVhZmYtMDEwMS00YTY2LWIzOTItYWIzNDdjZWY3MGEzXkEyXkFqcGc@._V1_.jpg",
+      "descarga": "https://www.mediafire.com/file/x4913lj5lirg4ur/dthjtdzrwszrhethjeazsdsdgsrdths.rar/file"
+    },
+    {
+      "id": "6",
+      "nombre": "Seis Triple Ocho (2024)",
+      "genero": "Ciencia ficción, Drama, Aventura",
+      "anio": 2024,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BODQwZGJiOTMtNTBjNC00YjEwLWIyN2MtZTU5NGVlMjQxMThlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "descarga": "https://www.mediafire.com/file/xpkxzotw6bxpx5z/ethjeyhesrgwehehehe.rar/file"
+    },
+    {
+      "id": "7",
+      "nombre": "venom el último baile (2024)",
+      "genero": "Ciencia ficción, Acción, Suspenso",
+      "anio": 2024,
+      "imagen": "https://pics.filmaffinity.com/Venom_El_aultimo_baile-379990903-large.jpg",
+      "descarga": "https://1fichier.com/?7ip7k9466axaz86qw4vp"
+    },
+    {
+      "id": "8",
+      "nombre": "Hechizados (2024)",
+      "genero": "Ciencia ficción, Animacion",
+      "anio": 2024,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYWI0MzQ5OGEtMmIwOS00Mzc3LTk2OGEtOTZlMGNmNWIzZDMzXkEyXkFqcGc@._V1_.jpg",
+      "descarga": "https://www.mediafire.com/file/3okt8t91jhetz35/oiutrusrgedsryjryjetrrdtfjdxfghgdh.rar/file"
+    },
+    {
+      "id": "9",
+      "nombre": "Sonríe 2 (2024)",
+      "genero": "Ciencia ficción, Terror",
+      "anio": 2024,
+      "imagen": "https://pics.filmaffinity.com/Smile_2-729696021-large.jpg",
+      "descarga": "https://www.mediafire.com/file/e6cm603t4atua7c/fhydhysedrawszgrsuhyzdsgawszgdfhzdf.rar/file"
+    },
+    {
+      "id": "10",
+      "nombre": "Guasón 2: Folie à Deux (2024)",
+      "genero": "Ciencia ficción, Acción , Drama",
+      "anio": 2024,
+      "imagen": "https://pics.filmaffinity.com/Joker_Folie_aa_Deux-420182891-large.jpg",
+      "descarga": "https://www.mediafire.com/file/y1z0mc3l2y4i373/ghyiujgyukjeashyerhyerdtj.rar/file"
+    }
+  ]
+}
