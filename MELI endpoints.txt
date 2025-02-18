@@ -1,0 +1,14 @@
+buscar x productos
+https://api.mercadolibre.com/sites/MLA/search?q=${}&limit=20
+
+mostrar cada producto
+https://api.mercadolibre.com/items/${iTEM_ID}
+
+mostrar datos del usuario
+https://api.mercadolibre.com/users/${USER_ID}
+
+mostrar categorias
+https://api.mercadolibre.com/sites/MLA/categories
+
+mostra datos de una categoria especifica
+https://api.mercadolibre.com/categories/${CATEGORIA_ID}

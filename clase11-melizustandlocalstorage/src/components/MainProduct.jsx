@@ -4,6 +4,7 @@ import axios from "axios"
 import { Modal,Button } from "react-bootstrap"
 import { Link } from "react-router-dom"
 
+
 const MainProduct = () => {
 
 const {id} = useParams()

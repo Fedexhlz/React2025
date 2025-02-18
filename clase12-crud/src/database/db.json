@@ -1,13 +1,13 @@
 {
   "contactos": [
     {
-      "nombre": "Lionel",
-      "apellido": "Messi",
-      "telefono": 3814562356,
-      "direccion": "B los platanos mza H casa 6",
-      "id": "2",
+      "nombre": "Lionel andres",
+      "apellido": "Messi Iniesta",
+      "direccion": "la matanza",
+      "telefono": "22294561234",
       "imagen": "https://cdn.conmebol.com/wp-content/uploads/2023/06/000_334P84K-scaled.jpg",
-      "goles": 5213
+      "id": "2",
+      "goles": "12450"
     },
     {
       "nombre": "Erlind",
@@ -37,15 +37,6 @@
       "goles": 1520
     },
     {
-      "id": "21ab",
-      "nombre": "ronaldino",
-      "apellido": "gaucho",
-      "direccion": "gaucho",
-      "telefono": "3814222555",
-      "imagen": "https://media.tycsports.com/files/2022/03/21/405501/ronaldinho_w862.jpg",
-      "goles": "500"
-    },
-    {
       "id": "4c91",
       "nombre": "fideo",
       "apellido": "di maria",
@@ -59,18 +50,34 @@
       "id": "1",
       "name": "raul",
       "password": "12345",
+      "email": "raul@gmail.com",
       "rol": "admin"
     },
     {
       "id": "2",
       "name": "marisa",
       "password": "mari2025",
+      "email": "marisa@gmail.com",
       "rol": "user"
     },
     {
       "id": "3",
       "name": "carlos alberto",
       "password": "carlin1234",
+      "email": "carlitos@gmail.com",
+      "rol": "user"
+    },
+    {
+      "id": "0a55",
+      "nombre": "luis",
+      "password": "L1234$",
+      "email": "luis@gmail.com"
+    },
+    {
+      "id": "a7d9",
+      "nombre": "lucrecia",
+      "password": "Lucre1234%",
+      "email": "lucre@gmail.com",
       "rol": "user"
     }
   ],

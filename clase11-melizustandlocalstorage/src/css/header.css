@@ -1,0 +1,45 @@
+.header {
+    background-color: #ffe600;
+}
+.logo {
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -999px;
+    background-image: url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/6.6.108/mercadolibre/logo_large_25years_v2.png");
+    height: 35px;
+    width: 135px;
+    display: flex;
+    position: static;
+    left: 0;
+    top: 0;
+    background-size: contain;
+    margin-left: 40px;
+}
+.nav-search-input {
+    position: relative;
+    z-index: 915;
+    color: rgba(0, 0, 0, .8980392157);
+    font-size: 16px;
+    margin: 0;
+    font-family: inherit;
+    border-radius: 2px;
+    background-color: #fff;
+    display: flex;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
+    height: 40px;
+    width: 100%;
+    padding: 10px 60px 10px 15px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 1.5px;
+}
+.envio img{
+    height: 40px;
+    align-items: center;
+}
+.row {
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}

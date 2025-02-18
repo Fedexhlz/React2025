@@ -71,7 +71,7 @@ const MainContacts = () => {
                         </td>
                         <td>
                             <button onClick={() => handleDelete(contact.id)} className="btn btn-danger"><MdDelete /></button>
-                            <Link className="btn btn-warning my-2" to="/"><FaUserEdit /></Link >
+                            <Link className="btn btn-warning my-2" to={`/contacts/edit/${contact.id}`}><FaUserEdit /></Link >
                             <Link to={`/contacts/view/${contact.id}`} className="btn btn-success ml-2"><FaEye /></Link >
                         </td>
                     </tr>)}
