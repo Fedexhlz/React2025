@@ -1,0 +1,11 @@
+.card-contact {
+    width: 50%;
+    margin: auto;
+    box-shadow: 2px 4px 4px black;
+}
+
+.card-img {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}

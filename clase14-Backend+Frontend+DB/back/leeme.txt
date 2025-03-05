@@ -1,0 +1,5 @@
+backend
+
+express nodemon cors (mysql - mysql2)
+
+peticiones http (get,post,put ,delete ,patch,option)
