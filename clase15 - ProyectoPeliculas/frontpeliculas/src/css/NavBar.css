@@ -1,0 +1,33 @@
+.navbar {
+    position: relative; /* Asegura que el z-index funcione */
+    z-index: 10; /* Asegura que el navbar esté por encima del carrusel */
+      
+}
+.navigation {
+    width: 70%;  
+}
+
+.navlink { 
+
+    background-image: linear-gradient(#2b72cc, #2B4A97);
+    border: #262829 solid 1px;
+    border-radius: 20px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 0 rgba(0, 0, 0, 0.8);
+    color: #FFFFFF;
+    float: left;
+    font-size: 18px;
+    height: 30px;
+    max-height: 30px;
+    line-height: 13px;
+    margin: 3px 2px 6px 4px;
+    padding: 4px 12px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #1A1C1D;
+}
+.NavBar {
+    background-image: linear-gradient(#262626, #121212);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgba(1, 1, 1, 0);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
+}

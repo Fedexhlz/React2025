@@ -6,9 +6,10 @@ const cors = require("cors")
 const app = express()
 
 app.use(express.json())
+app.use(cors())
 
 app.use("/",peliculasRoutes)
-app.use(cors())
+
 
 app.get("/",(req,resp)=>{
     resp.send({message:"WELCOME to my API"})

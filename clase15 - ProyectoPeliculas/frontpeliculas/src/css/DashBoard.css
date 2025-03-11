@@ -1,0 +1,8 @@
+td {
+    max-width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: nowrap;
+    text-align: center;
+}

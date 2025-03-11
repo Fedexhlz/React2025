@@ -22,6 +22,17 @@ const getOneMovie = (req, res) => {
     res.json(results);
   });
 };
+
+const searchMovie = (req,res) =>{
+
+  const search = req.params.query
+  const query = `select * from peliculas where nombre like "%${search}%";`
+  connection.query(query,(error,results)=>{
+    if (error) throw error;
+    res.json(results);
+  })
+}
+
 const createMovie = (req, res) => {
   //voy tomando los datos que vienen a travez del cuerpo de la peticion
   const nombre = req.body.nombre;
@@ -74,4 +85,5 @@ module.exports = {
   deleteMovie,
   createMovie,
   updateMovie,
+  searchMovie
 };
